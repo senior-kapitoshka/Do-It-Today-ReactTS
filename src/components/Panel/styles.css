@@ -1,0 +1,71 @@
+.panel {
+  margin-top: 20px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.panelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.remaining {
+  flex: 1;
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+  min-width: 150px;
+}
+
+.states {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+
+
+
+.filterBtns,
+.clearBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 32px;
+  padding: 0 4px;
+
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1.5px solid transparent;
+
+  cursor: pointer;
+  color: #686868;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.filterBtns {
+  color: #9c9c9c;
+}
+
+.filterBtns.active {
+  border-color: #e3cfce;
+  color: #d66b66;
+  background-color: #faf5f5;
+}
+
+.clearBtn:hover,
+.filterBtns:hover {
+  background-color: #f3f3f3;
+}
+
+
+.remaining {
+  text-align: center;
+}

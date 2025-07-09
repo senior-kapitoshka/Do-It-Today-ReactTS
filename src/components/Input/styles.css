@@ -1,0 +1,39 @@
+.inputContainer {
+  display: flex;
+  gap: 8px;
+}
+  .inputToDo {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: 1.5px solid #bbb;
+    border-radius: 6px;
+    outline-offset: 2px;
+    transition: border-color 0.3s ease;
+  }
+  
+  
+  .inputToDo:focus {
+    border-color: rgb(241, 11, 126);
+  }
+  
+  .inputContainer button {
+    padding: 0 18px;
+    background-color: rgb(241, 11, 126);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .inputContainer button:disabled {
+    background-color: #a5adcc;
+  }
+  
+  .inputContainer button:hover:not(:disabled) {
+    background-color: #405ac9;
+  }
+  
