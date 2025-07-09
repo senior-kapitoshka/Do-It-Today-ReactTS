@@ -32,12 +32,12 @@ export interface TranslationSet {
     },    
     en: {
       placeholder: "What needs to be done?",
-      remaining: (count, word) => `You have ${count} ${word} left!`,
+      remaining: (count, word) => `${count} ${word} left!`,
       all: "all",
       active: "active",
       completed: "completed",
       clear: "clear completed",
-      getTaskWord: (count) => (count === 1 ? "task" : "tasks"),
+      getTaskWord: (count) => (count === 1 ? "item" : "items"),
     },
   };
   
